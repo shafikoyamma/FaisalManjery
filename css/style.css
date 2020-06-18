@@ -3874,12 +3874,15 @@ text-decoration:none;
 	.sticky-header .header-section {
 		position: static;
 		top: 0em;
-		left: 20px;
+		left: 0px;
 		width: 100%;
 		z-index: 100;
 	}
 	.sticky-header .main-content {
 		padding-top: 0px;
+	}
+	.sticky-header.left-side-collapsed .header-section {
+		left: 0px;
 	}
 	
 
